@@ -10,10 +10,19 @@ h5,
 h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  margin-bottom: .5em;
 }
 
 a { 
   color: #3573b3;
+}
+
+img.primary-logo {
+  width: 200px;
+}
+
+.navbar-nav {
+  margin-top: 2em;
 }
 
 header.masthead {
@@ -45,7 +54,8 @@ header.masthead h1 {
     padding-bottom: 12rem;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+    /* text-shadow: 1px 2px 6px black; */
   }
 }
 
