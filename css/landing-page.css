@@ -16,6 +16,11 @@ a {
   color: #3573b3;
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,0);
+}
+
 .navbar-nav {
   margin-top: 2rem;
 }
@@ -94,6 +99,9 @@ img.signature {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+}
+.showcase p.section-next {
+  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
