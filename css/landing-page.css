@@ -46,6 +46,9 @@ header.masthead .overlay {
 }
 header.masthead h1 {
   font-size: 2rem;
+  background-color: #3573b3;
+  color: #fff;
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 @media (min-width: 768px) {
   header.masthead {
@@ -54,6 +57,7 @@ header.masthead h1 {
   }
   header.masthead h1 {
     font-size: 5rem;
+    padding-bottom: 2rem;
   }
 }
 
