@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 h1,
@@ -8,9 +8,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-weight: 700;
-  margin-bottom: .5em;
+  margin-bottom: 1rem;
 }
 
 a { 
@@ -18,7 +18,7 @@ a {
 }
 
 .navbar-nav {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 img.primary-logo {
@@ -63,10 +63,11 @@ header.masthead h1 {
   border-color: #3573b3;
 }
 
-.message-mayor {
-  max-width: 100%;
-  margin: 0 auto;  
+.brand-invert {
+  background-color: #3573b3;
+  color: #fff;
 }
+
 .message-mayor a {
   color: #fff;
   text-decoration: underline;
@@ -74,16 +75,14 @@ header.masthead h1 {
 .message-mayor a:hover {
   text-decoration: none;
 }
-@media (min-width: 768px) {
-  .message-mayor {
-    max-width: 60%;
-  }
-}
 
 img.portrait {
-  border-radius: 50%;
   width: 300px;
   margin-bottom: 4rem;
+}
+
+img.signature {
+  width: 300px;
 }
 
 .showcase .showcase-text {
