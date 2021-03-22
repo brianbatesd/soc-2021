@@ -95,6 +95,7 @@ header.masthead h1 {
 .btn-primary {
   background-color: #3573b3;
   border-color: #3573b3;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .brand-invert {
