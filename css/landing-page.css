@@ -28,6 +28,42 @@ img.primary-logo {
   width: 200px;
 }
 
+header.title h1 {
+  font-size: 2rem;
+  background-color: #3573b3;
+  color: #fff;
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  header.title {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  header.title h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+section.masthead-cover {
+  position: relative;
+  background-color: #3573b3;
+  background: url("../img/soc-cover.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+@media (min-width: 768px) {
+  section.masthead-cover {
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+  }
+}
+
 header.masthead {
   position: relative;
   background-color: #3573b3;
@@ -38,15 +74,6 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-header.masthead .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
 }
 header.masthead h1 {
   font-size: 2rem;
