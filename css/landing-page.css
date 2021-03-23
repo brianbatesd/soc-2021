@@ -103,6 +103,15 @@ header.masthead h1 {
   color: #fff;
 }
 
+.brand-invert a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.brand-invert a:hover {
+  text-decoration: none;
+}
+
 .message-mayor a {
   color: #fff;
   text-decoration: underline;
