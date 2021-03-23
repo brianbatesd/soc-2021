@@ -13,6 +13,15 @@ h6 {
 
 a { 
   color: #3573b3;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 .navbar-light .navbar-toggler {
@@ -64,6 +73,10 @@ section.masthead-cover {
   }
 }
 
+section.languages {
+  padding: 3rem 0 2rem 0;
+}
+
 header.masthead {
   position: relative;
   background-color: #3573b3;
@@ -95,7 +108,11 @@ header.masthead h1 {
 .btn-primary {
   background-color: #3573b3;
   border-color: #3573b3;
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 1rem 2rem 1rem;
+}
+
+a.btn {
+  text-decoration: none;
 }
 
 .brand-invert {
@@ -105,19 +122,6 @@ header.masthead h1 {
 
 .brand-invert a {
   color: #fff;
-  text-decoration: underline;
-}
-
-.brand-invert a:hover {
-  text-decoration: none;
-}
-
-.message-mayor a {
-  color: #fff;
-  text-decoration: underline;
-}
-.message-mayor a:hover {
-  text-decoration: none;
 }
 
 .heading {
@@ -144,9 +148,6 @@ img.signature {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
-}
-.showcase p.section-next {
-  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
@@ -206,4 +207,12 @@ img.signature {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
