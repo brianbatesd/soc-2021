@@ -55,32 +55,10 @@ header.title h1 {
   }
 }
 
-section.masthead-cover {
-  position: relative;
-  background-color: #3573b3;
-  background: url("../img/soc-cover.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-@media (min-width: 768px) {
-  section.masthead-cover {
-    padding-top: 25rem;
-    padding-bottom: 25rem;
-  }
-}
-
-section.languages {
-  padding: 3rem 0 2rem 0;
-}
-
 header.masthead {
   position: relative;
   background-color: #3573b3;
-  background: url("../img/soc-cover.jpg") no-repeat center center;
+  background: url("../img/soc-cover.jpg") no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,6 +81,28 @@ header.masthead h1 {
     font-size: 5rem;
     padding-bottom: 2rem;
   }
+}
+
+section.masthead-cover {
+  position: relative;
+  background-color: #3573b3;
+  background: url("../img/soc-cover.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+@media (min-width: 768px) {
+  section.masthead-cover {
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+  }
+}
+
+section.languages {
+  padding: 3rem 0 2rem 0;
 }
 
 .btn-primary {
@@ -154,6 +154,11 @@ img.signature {
     padding: 7rem;
   }
 }
+@media (min-width: 1920px) {
+  .showcase .showcase-img {
+    min-height: 40rem;
+  }
+}
 
 .youtube-video {
   min-height: 20rem;
@@ -190,18 +195,6 @@ img.signature {
 .testimonials .testimonial-item img {
   max-width: 12rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
-}
-
-.call-to-action {
-  position: relative;
-  background-color: #343a40;
-  background: url("../img/soc-cover.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 
 footer.footer {
